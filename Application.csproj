@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <StartupObject>Application.Application</StartupObject>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Content Remove="__MACOSX\**" />
+        <Compile Remove="__MACOSX\**" />
+        <EmbeddedResource Remove="__MACOSX\**" />
+        <None Remove="__MACOSX\**" />
+    </ItemGroup>
+</Project>
